@@ -1,0 +1,31 @@
+<!-- Create an html file html in which you give a brief introduction about yourself and any previous experiences regarding web development. You are welcomed to include an image or any media of your choice.
+Create a JavaScript file js and add a script tag into your html file with the link to the js file.
+Create another page html. People can use this page to send you messages. You need to create a form in which a visitor can fill in information about themselves such as first and last name, email, telephone num, in addition to the subject, and the message body. Remember to connect the two pages (with a button or a hyperlink ...)
+In the JavaScript file, create a function validate () in which you may use string methods to validate the form. If the user enters wrong values, you show an error message (alert) to the user with the problem.
+Check if the first name and last name are not empty and that they have only letters
+Check if the email is not empty and it has (@) and dot (.) with no spaces. (Regular expressions are not required but it is good to have)
+Check if the telephone number (if entered) only contains digit.
+The function should be called when the visitor submits the form. -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="validate.js" type="text/javascript"></script>
+</head>
+<body>
+    <pre>
+    <label>First name   <input type="text" id="firstname"></label>
+    <label>Last name    <input type="text" id="lastname"></label>
+    <label>Email        <input type="email" id="email"></label>
+    <label>Phone number <input type="text" id="phonenumber"></label><label> <input type="submit" name="submitbutton" onclick="kuk()"></label>
+    
+</pre>
+</body>
+</html>
