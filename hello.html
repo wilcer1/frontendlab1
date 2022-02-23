@@ -16,16 +16,27 @@ The function should be called when the visitor submits the form. -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
     <script src="validate.js" type="text/javascript"></script>
+   <link href="styling.css" rel="stylesheet">
 </head>
 <body>
     <pre>
-    <label>First name   <input type="text" id="firstname"></label>
-    <label>Last name    <input type="text" id="lastname"></label>
-    <label>Email        <input type="email" id="email"></label>
-    <label>Phone number <input type="text" id="phonenumber"></label><label> <input type="submit" name="submitbutton" onclick="validateinput()"></label>
-    
+    <label>First name 
+    <input type="text" id="firstname"></label>
+    <label>Last name
+    <input type="text" id="lastname"></label>    
+    <label>Email
+    <input type="email" id="email"></label>        
+    <label>Phone number
+    <input type="text" id="phonenumber"></label><label>  
+    <label>Subject
+    <input type="text" id="subject"></label>      
+    <label>Message
+    <textarea type="text" id="message" style="resize: none; width: 500px; height:300px;" ></textarea></label>
+    <input type="submit" name="submitbutton" onclick="validateinput()"></label>
+
+    <a href="summary.html">click here to go to summary</a>
 </pre>
 </body>
 </html>
