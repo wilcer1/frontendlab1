@@ -1,6 +1,4 @@
-function validate(){
-    
-}
+
 
 function validateinput(){
 
